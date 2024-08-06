@@ -23,5 +23,16 @@ The project relies on the following dependencies:
 - Apache Spark 3.x
 - pandas
 
+### Running the Project
+
+- T1: Data Preprocessing
+To run the data preprocessing script, follow these steps:
+
+Prepare the Raw Dataset:
+Ensure that the raw dataset Raw_Flight_Data.csv is in the correct path.
+
+Run the Script:
+Use the following command to run the script:
+
 
 
