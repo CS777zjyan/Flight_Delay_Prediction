@@ -1,32 +1,27 @@
-# Flight Delay Prediction 
+# Flight Delay Prediction Model
 
-## Overview
+This project aims to predict flight delays using a logistic regression model. The model is trained on a preprocessed dataset that includes various features related to flight details.
 
-This project contains two Python script files, `T1.py` and `T2.py`. Each file implements different functionalities and may be used in various application scenarios. Below is a detailed description of each file.
+## Project Structure
 
-## File Descriptions
+### T1: Data Preprocessing
 
-### T1.py
+- `T1.py`: The script for data preprocessing, which loads raw flight data, processes it, and outputs a preprocessed CSV file.
+- `Raw_Flight_Data.csv`: The raw dataset containing flight information.
+- `Project_combinedflight.csv`: The output preprocessed dataset used for training and testing the model in T2.
 
-#### Functionality
+### T2: Model Training and Evaluation
 
-`T1.py` implements the following features:
-- Detailed description of the script's specific functionality, such as data processing, model training, data analysis, etc.
-- Explanation of the script's inputs and outputs.
-- Detailed description of the main modules and functions.
+- `T2.py`: The main script for training the model, making predictions, and evaluating the model performance.
+- `Project_combinedflight.csv`: The preprocessed dataset used for training and testing the model.
+- `evaluation_results.txt`: The output file containing the evaluation results of the model.
 
-```bash
-python T1.py
+## Dependencies
 
-### T2.py
-
-Model Evaluation
-The model is evaluated using the following metrics:
-
-Accuracy: The proportion of correct predictions over the total predictions.
-Precision: The proportion of true positive predictions over the total positive predictions.
-Recall: The proportion of true positive predictions over the actual positive instances.
-F1 Score: The harmonic mean of precision and recall.
+The project relies on the following dependencies:
+- Python 3.x
+- Apache Spark 3.x
+- pandas
 
 
 
